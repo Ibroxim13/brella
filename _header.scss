@@ -1,0 +1,122 @@
+.header {
+    background-image: url(../img/back-img.png);
+    height: calc(100vh - 90px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+
+
+    .header__title {
+        color: #214E41;
+        font-family: Roboto;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 46px;
+        /* 127.778% */
+        width: 516px;
+    }
+
+    .header__text {
+        color: #214E41;
+        font-family: Raleway;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+        /* 150% */
+        margin-top: 40px;
+        margin-bottom: 16px;
+    }
+
+    .header__content input {
+        border-radius: 6px 0px 0px 6px;
+        background: #FFF;
+        color: #222;
+        font-family: Raleway;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 20px;
+        /* 142.857% */
+        border: 0;
+        padding: 20px 88px 20px 20px;
+        outline: 0;
+    }
+
+    .header__btn {
+        border-radius: 0px 6px 6px 0px;
+        background: #43806C;
+        border: 0;
+        color: #FFF;
+        font-family: Raleway;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 20px;
+        /* 153.846% */
+        padding: 20px 35px;
+        position: relative;
+        left: -5px;
+        top: -1px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .header__btn:active {
+        opacity: 0.8;
+    }
+
+    .header__info__box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header__info {
+        display: flex;
+        padding: 50px;
+        width: 1240px;
+        position: absolute;
+        bottom: -82px;
+        border-radius: 6px;
+        background: #FFF;
+        gap: 40px;
+        box-shadow: 1px 1px 4px 0px rgba(232, 230, 230, 0.60);
+        
+        @media screen and (max-width:1280px) {
+            width: 900px;
+        }
+    }
+
+    .header__col {
+        display: flex;
+        align-items: start;
+        gap: 10px;
+
+        .header__info__title {
+            color: #214E41;
+            font-family: Raleway;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            /* 150% */
+        }
+
+        .header__info__text {
+            color: #214E41;
+            font-family: Raleway;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20px;
+            /* 142.857% */
+        }
+    }
+}

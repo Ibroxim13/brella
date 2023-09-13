@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+ul,li{
+    list-style: none;
+}
+
+.container{
+    width: 100%;
+    max-width: 1280px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+$main__color: #214E41;
+$second__color: #43806C;
+
+@import "_navbar.scss";
+@import "_header.scss";
+@import "_our_plan.scss";
+@import "_employer.scss";
+@import "_footer.scss";
+

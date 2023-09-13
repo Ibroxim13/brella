@@ -1,0 +1,166 @@
+.footer {
+    background: #214E41;
+    padding-top: 100px;
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #fff;
+        margin-bottom: 74px;
+
+        .footer__content__left {
+            display: flex;
+            gap: 105px;
+
+            .footer__content__left__col {
+                flex-direction: column;
+                gap: 15px;
+
+                li {
+                    margin-bottom: 15px;
+                    color: #FFF;
+                    font-family: Raleway;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 27px;
+                    /* 168.75% */
+                    cursor: pointer;
+                }
+
+                li:nth-child(1) {
+                    color: #FFF;
+                    font-family: Raleway;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 24px;
+                    letter-spacing: 0.02px;
+                    text-transform: uppercase;
+                }
+            }
+        }
+
+        .footer__content__right {
+            .footer__content__title {
+                margin-bottom: 19px;
+                color: #FFF;
+                font-family: Raleway;
+                font-size: 13px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px;
+                letter-spacing: 0.02px;
+                text-transform: uppercase;
+            }
+
+            .footer__contetn__right__text {
+                margin-bottom: 16px;
+                color: #FFF;
+                font-family: Raleway;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px;
+                width: 345px;
+                letter-spacing: 0.02px;
+            }
+
+            .email {
+                width: 355px;
+                padding: 22px 0 6px 21px;
+                background: 0;
+                border: 1px solid #FFF;
+                outline: 0;
+                color: #FFF;
+                font-family: Raleway;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px;
+                letter-spacing: 0.02px;
+                position: relative;
+            }
+
+            .email::-webkit-input-placeholder { /* Edge */
+                color: #fff;
+            }
+
+            .email~:hover:-webkit-input-placeholder { /* Edge */
+                display: none;
+            }
+           
+
+            .email__btn {
+                width: 53px;
+                height: 53px;
+                background-color: #fff;
+                display: inline-block;
+                position: relative;
+                top: -2px;
+                left: -58px;
+                text-align: center;
+                padding-top: 15px;
+                cursor: pointer;
+            }
+
+            .links {
+                display: flex;
+                align-items: center;
+                margin-top: 32px;
+                gap: 25px;
+                padding-bottom: 71px;
+            }
+        }
+    }
+
+    .footer__text {
+        color: #FFF;
+        font-family: Raleway;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        /* 171.429% */
+        letter-spacing: 0.02px;
+        margin-bottom: 20px;
+
+        a {
+            margin-left: 15px;
+        }
+    }
+
+    .footer__end {
+        margin-top: 90px;
+        padding-bottom: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .footer__end__left {
+            color: #FFF;
+            font-family: Raleway;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0.02px;
+        }
+
+        .footer__end__right {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            li {
+                color: #FFF;
+                font-family: Raleway;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px;
+                letter-spacing: 0.02px;
+            }
+        }
+    }
+}

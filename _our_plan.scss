@@ -1,0 +1,473 @@
+.plan {
+    margin-top: 213px;
+
+    .plan__descr {
+        display: flex;
+        align-items: center;
+        gap: 60px;
+
+        @media screen and (max-width:1159px) {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .plan__descr__left {
+            width: 50%;
+            padding-left: 60px;
+
+            .descr__title {
+                color: #43806C;
+                font-family: Raleway;
+                font-size: 13px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 20px;
+                /* 153.846% */
+                letter-spacing: 0.05px;
+                text-transform: uppercase;
+                margin-bottom: 15px;
+            }
+
+            .descr__text__1 {
+                color: #214E41;
+                font-family: Roboto;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 46px;
+                /* 127.778% */
+                margin-bottom: 34px;
+            }
+
+            .descr__text__2 {
+                color: #757575;
+                font-family: Raleway;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 30px;
+                /* 166.667% */
+                letter-spacing: 0.02px;
+                width: 477px;
+                margin-bottom: 24px;
+            }
+
+            .descr__btn {
+                background: 0;
+                border: 0;
+                color: #214E41;
+                text-align: center;
+                font-family: Raleway;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 18px;
+                /* 100% */
+                letter-spacing: 0.02px;
+                width: 107px;
+                border-bottom: 3px solid $main__color;
+                cursor: pointer;
+                margin-bottom: 32px;
+            }
+
+        }
+
+        .descr__right {
+            width: 50%;
+            padding-left: 10px;
+            padding-right: 60px;
+            display: flex;
+            align-items: center;
+            gap: 40px;
+
+            .plan__percentage {
+                color: #214E41;
+                font-family: Roboto;
+                font-size: 70px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 90px;
+                /* 128.571% */
+                margin-bottom: 10px;
+                z-index: 999;
+                border-bottom: 2px solid #F0A446;
+            }
+
+            .descr__right__text {
+                color: #214E41;
+                font-family: Raleway;
+                font-size: 13px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 22px;
+                /* 169.231% */
+                letter-spacing: 0.02px;
+                width: 224px;
+
+                .locater {
+                    display: inline-block;
+                    text-decoration: underline;
+                }
+            }
+
+
+            .descr__right__right {
+                height: 364px;
+                display: flex;
+                align-items: end;
+
+                gap: 30px;
+
+                .price {
+                    color: #214E41;
+                    font-family: Raleway;
+                    font-size: 13px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 22px;
+                    /* 169.231% */
+                }
+
+                .first__diagramm__value {
+                    background: #43806C;
+                    width: 78px;
+                    height: 150px;
+                    margin-bottom: 20px;
+                }
+
+                .diagramm__name {
+                    color: #214E41;
+                    font-family: Raleway;
+                    font-size: 13px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 22px;
+                    /* 169.231% */
+                }
+
+                .second__diagramm__value {
+                    width: 78px;
+                    height: 300px;
+                    margin-bottom: 20px;
+                    background: #43806C;
+                }
+
+
+            }
+        }
+
+    }
+
+    .plan__descr__by {
+        color: #757575;
+        text-align: end;
+        font-family: Raleway;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+        /* 169.231% */
+        padding-right: 135px;
+    }
+
+    .brings {
+        display: flex;
+        margin: 0 auto;
+        margin-top: 120px;
+        margin-bottom: 120px;
+
+
+        @media screen and (max-width:1247px) {
+            flex-direction: column;
+        }
+
+
+        &__left {
+            padding: 120px;
+            background-color: #E3EEED;
+            width: 50%;
+            display: flex;
+            justify-content: end;
+
+
+            @media screen and (max-width:1247px) {
+                width: 100%;
+            }
+
+            .brings__left__content {
+                text-align: left;
+                width: 440px;
+
+                @media screen and (max-width:1247px) {
+                    width: 100%;
+                }
+            }
+
+            .brings__suptitle {
+                color: #214E41;
+                font-family: Raleway;
+                font-size: 13px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 20px;
+                letter-spacing: 0.05px;
+                text-transform: uppercase;
+                margin-bottom: 9px;
+            }
+
+            .brings__title {
+                color: #214E41;
+                font-family: Roboto;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 42px;
+                display: inline-block;
+            }
+
+            .brings__left__content img {
+                display: inline-block;
+                margin-left: 15px;
+            }
+
+            .benefits {
+                color: #43806C;
+                font-family: Roboto;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 42px;
+                /* 131.25% */
+                margin-top: 18px;
+                cursor: pointer;
+            }
+        }
+
+        &__right {
+            padding: 120px;
+            width: 50%;
+            background-color: #214E41;
+
+            @media screen and (max-width:1247px) {
+                width: 100%;
+            }
+
+            .brings__right__content {
+                text-align: left;
+                width: 488px;
+
+                @media screen and (max-width:1247px) {
+                    width: 100%;
+                }
+
+                .brings__right__text__1 {
+                    margin-top: 25px;
+                    margin-bottom: 34px;
+                    color: #FFF;
+                    font-family: Raleway;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 34px;
+                    /* 170% */
+                    letter-spacing: 0.02px;
+                }
+
+                .brings__right__text__2 {
+                    color: #FFF;
+                    font-family: Raleway;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 34px;
+                    /* 170% */
+                    letter-spacing: 0.02px;
+                }
+            }
+        }
+
+    }
+
+    .product__content {
+        display: flex;
+        align-items: center;
+        gap: 64px;
+        margin-bottom: 60px;
+
+        @media screen and (max-width:1093px) {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .product__left {
+            width: 600px;
+
+            .product__suptitle {
+                margin-bottom: 20px;
+                color: #43806C;
+                font-family: Raleway;
+                font-size: 13px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 20px;
+                letter-spacing: 0.05px;
+                text-transform: uppercase;
+            }
+
+            .product__title {
+                margin-bottom: 34px;
+                color: #214E41;
+                font-family: Roboto;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 46px;
+                /* 127.778% */
+            }
+
+            .product__text {
+                color: #757575;
+                font-family: Raleway;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 30px;
+                /* 166.667% */
+                letter-spacing: 0.02px;
+                width: 551px;
+                margin-bottom: 42px;
+            }
+        }
+
+        .product__right {
+            width: 560px;
+            height: 298px;
+            background-image: url(../img/back-img-2.png);
+        }
+    }
+
+    .product__info {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 50px;
+        padding-right: 31px;
+
+        @media screen and (max-width:1093px) {
+            flex-direction: column;
+        }
+
+        &__col {
+            width: 262.5px;
+
+        @media screen and (max-width:1093px) {
+           height: 140px;
+            width: 50%;
+            
+        }
+        }
+
+        &__title {
+            color: #F0A446;
+            font-family: Roboto;
+            font-size: 60px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 78px;
+            /* 130% */
+            margin-bottom: 13px;
+        }
+
+        &__text {
+            color: #214E41;
+            font-family: Raleway;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 22px;
+            /* 169.231% */
+            letter-spacing: 0.02px;
+            margin-bottom: 118px;
+        }
+    }
+
+    .guide__info__content {
+        display: flex;
+        gap: 123px;
+
+        @media screen and (max-width:1004px) {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 100px 0;
+        }
+
+        .guide__info__left {
+            height: 500px;
+            padding-left: 315px;
+            width: 50%;
+            background-image: url(../img/phone.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-repeat: no-repeat;
+        }
+
+        .guide__info__right {
+
+            .guide__info__suptitle {
+                margin-top: 68px;
+                color: #43806C;
+                font-family: Raleway;
+                font-size: 13px;
+                font-style: normal;
+                font-weight: 900;
+                line-height: 20px;
+                /* 153.846% */
+                letter-spacing: 0.05px;
+                text-transform: uppercase;
+                margin-bottom: 20px;
+            }
+
+            .guide__info__title {
+                margin-bottom: 34px;
+                width: 483px;
+                color: #214E41;
+                font-family: Roboto;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 46px;
+                /* 127.778% */
+            }
+
+            .guide__info__text {
+                margin-bottom: 24px;
+                color: #757575;
+                font-family: Raleway;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 30px;
+                /* 166.667% */
+                letter-spacing: 0.02px;
+                width: 545px;
+            }
+
+            .play__video {
+                color: #214E41;
+                text-align: center;
+                font-family: Raleway;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 18px;
+                width: 105px;
+                cursor: pointer;
+                letter-spacing: 0.02px;
+                padding-bottom: 14px;
+                border-bottom: 2px solid #214E41;
+            }
+        }
+    }
+
+}

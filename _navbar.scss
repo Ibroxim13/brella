@@ -1,0 +1,111 @@
+.navbar {
+    height: 90px;
+    display: flex;
+    align-items: center;
+
+
+
+    @media screen and (max-width:1100px) {
+        position: fixed;
+        z-index: 999999;
+        width: 100%;
+        background-color: #fff;
+    }
+
+    .navbar__content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .navbar__menu {
+            display: flex;
+            align-items: center;
+            gap: 49px;
+
+            @media screen and (max-width:1100px) {
+                position: fixed;
+                top: 90px;
+                left: -100%;
+                width: 100%;
+                z-index: 9999;
+                height: 100vh;
+                background-color: #fff;
+                flex-direction: column;
+                align-items: stretch;
+                padding-left: 20px;
+                transition: 0.3s;
+                gap: 20px;
+                font-size: 30px;
+            }
+        }
+
+        .navbar__menu a li {
+            color: $main__color;
+            font-family: Raleway;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 20px;
+            /* 142.857% */
+        }
+
+        .navbar__btn {
+            padding: 10px 15px;
+            border: 0;
+            border-radius: 6px;
+            background: #43806C;
+            color: #FFF;
+            font-family: Raleway;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 20px;
+            /* 142.857% */
+        }
+
+        .navbar__login {
+            padding: 5px;
+            outline: 0;
+            border: 0;
+            color: #214E41;
+            font-family: Raleway;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 20px;
+        }
+
+        .navbar__languages {
+            padding: 5px;
+            outline: 0;
+            border: 0;
+            color: #214E41;
+            font-family: Raleway;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 20px;
+        }
+
+
+    }
+
+    #check {
+        display: none;
+    }
+
+    .navbar__toogle {
+        font-size: 27px;
+        cursor: pointer;
+        display: none;
+
+        @media screen and (max-width:1100px) {
+            display: block;
+        }
+    }
+
+
+    #check:checked~.navbar__menu {
+        left: 0;
+    }
+}
